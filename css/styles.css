@@ -669,20 +669,20 @@ img {
   color: #fff;
 }
 
-.footer-box {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   text-decoration: none;
   background-color: #2f303a;
 }
-.container.footer {
+.page-footer__container {
   display: flex;
   align-items: baseline;
 }
-.container.footer > .item:nth-child(1) {
+.page-footer__container > .item:nth-child(1) {
   margin-right: 90px;
 }
-.container.footer > .item:nth-child(2) {
+.page-footer__container > .item:nth-child(2) {
   margin-right: 93px;
 }
 .link.address {
