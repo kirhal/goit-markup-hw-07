@@ -68,19 +68,18 @@ img {
   text-decoration: none;
 }
 
-
 /* -------------- Header --------------- */
 .page-header {
-  position: fixed;  
+  position: fixed;
   background-color: #fff;
   width: 100%;
-  top: 0;  
-  z-index: 100;  
+  top: 0;
+  z-index: 100;
 
   border-bottom: 1px solid #ececec;
 }
 .page-header__container {
-  display: flex;  
+  display: flex;
   justify-content: center;
 }
 
@@ -95,7 +94,7 @@ img {
 }
 
 .nav__list {
-  display: flex;  
+  display: flex;
   margin-right: 318px;
 }
 .nav__item:not(:last-child) {
