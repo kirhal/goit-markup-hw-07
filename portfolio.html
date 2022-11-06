@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-      <header class="page-header">
+    <header class="page-header">
       <div class="container page-header__container">
         <a href="./index.html" lang="en" class="logo page-header__logo"
           ><span class="logo__name">Web</span>Studio</a
@@ -24,12 +24,16 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="./index.html" class="nav__link ">Студія</a>
+              <a href="./index.html" class="nav__link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link nav__link--current">Портфоліо</a>
+              <a href="./portfolio.html" class="nav__link nav__link--current"
+                >Портфоліо</a
+              >
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">Контакти</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="contacts-list">
@@ -55,178 +59,234 @@
     <main>
       <section class="section section-portfolio">
         <div class="container">
-          <h1 class="container__title container-portfolio__title">Наші роботи</h1>
+          <h1 class="container__title container-portfolio__title">
+            Наші роботи
+          </h1>
           <ul class="filter-list">
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">Усі</button>
+              <button type="button" class="button filter-list__button">
+                Усі
+              </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">Веб-сайти</button>
+              <button type="button" class="button filter-list__button">
+                Веб-сайти
+              </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">Додатки</button>
+              <button type="button" class="button filter-list__button">
+                Додатки
+              </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">Дизайн</button>
+              <button type="button" class="button filter-list__button">
+                Дизайн
+              </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">Маркетинг</button>
+              <button type="button" class="button filter-list__button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <ul class="example-list">
-            <li class="item">
-              <div class="block">
+            <li class="example-list__item">
+              <div class="example-list__content">
                 <img
                   src="./images/image-1.jpg"
                   alt="Монітор ноутбуку в якому зображений веб-сайт з трьома профілями працівників компанії "
                   width="370"
-                  class="pic"
                 />
-                <div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
                 </div>
               </div>
-              <div class="subject">
-                <h3 class="title">Технокряк</h3>
-                <p class="desc">Веб-сайт</p>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">Технокряк</h3>
+                <p class="example-list__desc">Веб-сайт</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-2.jpg"
-                alt="Два чоловіка у стрибку борються за мяч "
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 class="title">
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-2.jpg"
+                  alt="Два чоловіка у стрибку борються за мяч "
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">
                   Постер <span lang="en">New Orlean vs Golden Star</span>
                 </h3>
-                <p class="desc">Дизайн</p>
+                <p class="example-list__desc">Дизайн</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-3.jpg"
-                alt="Намальоване зображення лосося з логотипом
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-3.jpg"
+                  alt="Намальоване зображення лосося з логотипом
             ресторану"
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
-                <p class="desc">Додаток</p>
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">
+                  Ресторан <span lang="en">Seafood</span>
+                </h3>
+                <p class="example-list__desc">Додаток</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-4.jpg"
-                alt="Чорні повнорозмірні навушники"
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 class="title">Проєкт <span lang="en">Prime</span></h3>
-                <p class="desc">Маркетинг</p>
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-4.jpg"
+                  alt="Чорні повнорозмірні навушники"
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">
+                  Проєкт <span lang="en">Prime</span>
+                </h3>
+                <p class="example-list__desc">Маркетинг</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-5.jpg"
-                alt="Одна коробка білого кольору та одна коробка
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-5.jpg"
+                  alt="Одна коробка білого кольору та одна коробка
             пісочного кольору стоять поруч "
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 class="title">Проєкт <span lang="en">Boxes</span></h3>
-                <p class="desc">Додаток</p>
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">
+                  Проєкт <span lang="en">Boxes</span>
+                </h3>
+                <p class="example-list__desc">Додаток</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-6.jpg"
-                alt="Монітор комп'ютера із темним зображенням веб-сайту"
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 lang="en" class="title">Inspiration has no Borders</h3>
-                <p class="desc">Веб-сайт</p>
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-6.jpg"
+                  alt="Монітор комп'ютера із темним зображенням веб-сайту"
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 lang="en" class="example-list__subject">
+                  Inspiration has no Borders
+                </h3>
+                <p class="example-list__desc">Веб-сайт</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-7.jpg"
-                alt="Розгорнутий журнал з логотипом видання"
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 class="title">
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-7.jpg"
+                  alt="Розгорнутий журнал з логотипом видання"
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">
                   Видання <span lang="en">Limited Edition</span>
                 </h3>
-                <p class="desc">Додаток</p>
+                <p class="example-list__desc">Додаток</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-8.jpg"
-                alt="Біла бірка для одягу з логотипом агенства"
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
-                </div></div>
-              <div class="subject">
-                <h3 class="title">Проєкт <span lang="en">LAB</span></h3>
-                <p class="desc">Маркетинг</p>
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-8.jpg"
+                  alt="Біла бірка для одягу з логотипом агенства"
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+              </div>
+              <div class="example-list__inner">
+                <h3 class="example-list__subject">
+                  Проєкт <span lang="en">LAB</span>
+                </h3>
+                <p class="example-list__desc">Маркетинг</p>
               </div>
             </li>
-            <li class="item"><div class="block">
-              <img
-                src="./images/image-9.jpg"
-                alt="Руки працюючої людини за ноутбуком на екрані якого
+            <li class="example-list__item">
+              <div class="example-list__content">
+                <img
+                  src="./images/image-9.jpg"
+                  alt="Руки працюючої людини за ноутбуком на екрані якого
             веб-сайт додатку"
-                width="370"
-                class="pic"
-              /><div class="overlay"><p class="overlay-disc">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем
-                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                  вичерпні відомості про компанію чи приватну особу.</p>
+                  width="370"
+                />
+                <div class="example-list__overlay">
+                  <p class="example-list__meta">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
                 </div>
-                </div>
-              <div class="subject">
-                <h3 lang="en" class="title">Growing Business</h3>
-                <p class="desc">Додаток</p>
+              </div>
+              <div class="example-list__inner">
+                <h3 lang="en" class="example-list__subject">
+                  Growing Business
+                </h3>
+                <p class="example-list__desc">Додаток</p>
               </div>
             </li>
           </ul>
@@ -273,28 +333,44 @@
           <ul class="socials-list">
             <li>
               <a href="#" class="socials-list__link socials-list__link--grey">
-                <svg class="socials-list__icon socials-list__icon--white" width="20" height="20">
+                <svg
+                  class="socials-list__icon socials-list__icon--white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="socials-list__link socials-list__link--grey">
-                <svg class="socials-list__icon socials-list__icon--white" width="20" height="20">
+                <svg
+                  class="socials-list__icon socials-list__icon--white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="socials-list__link socials-list__link--grey">
-                <svg class="socials-list__icon socials-list__icon--white" width="20" height="20">
+                <svg
+                  class="socials-list__icon socials-list__icon--white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="socials-list__link socials-list__link--grey">
-                <svg class="socials-list__icon socials-list__icon--white" width="20" height="20">
+                <svg
+                  class="socials-list__icon socials-list__icon--white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
