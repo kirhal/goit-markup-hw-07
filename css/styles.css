@@ -744,10 +744,10 @@ img {
 }
 
 /* ------------- Portfolio section ----------- */
-.section.portfolio {
+.section-portfolio {
   margin-top: 80px;
 }
-.portfolio-title {
+.container-portfolio__title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -762,18 +762,21 @@ img {
   margin-bottom: 50px;
   justify-content: center;
 }
-.filter-list .button {
+.filter-list__item:not(:last-child) {
+  margin-right: 8px;
+}
+.filter-list__button {
   padding: 6px 25px;
 
   background-color: #f5f4fa;
+  color: #212121;
 
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
+  box-shadow: 0 0 0 transparent;
+  border: 0; 
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -781,17 +784,14 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter-list .button:hover,
-.filter-list .button:focus {
+.filter-list__button:hover,
+.filter-list__button:focus {
   background-color: #2196f3;
   color: #fff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
   transform: color, box-shadow, background-color;
-}
-.filter-list .item:not(:last-child) {
-  margin-right: 8px;
 }
 .example-list {
   display: flex;
