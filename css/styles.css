@@ -694,23 +694,10 @@ img {
 
   color: #fff;
 }
-.studio-socials .socials-list {
-  display: flex;
-  gap: 10px;
-}
-.studio-socials .links {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-
+.socials-list__link--grey {
   background: rgba(255, 255, 255, 0.1);
 }
-
-.studio-socials .icon {
+.socials-list__icon--white {
   fill: #fff;
 }
 
